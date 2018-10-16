@@ -10,8 +10,8 @@
 					#   - Use --time as command line argument to override
 #SBATCH --partition=cpu			# Submit job to the cpu partition
 #SBATCH --mail-type=ALL			# Send mail on all state changes
-#SBATCH --output=rc-g16.%j.out	# The output file name
-#SBATCH --error=rc-g16.%j.err		# The error file nam
+#SBATCH --output=rc-g16.%j.out		# The output file name
+#SBATCH --error=rc-g16.%j.err		# The error file name
 
 #--------------------------------------------------------------------------------------------------
 #
