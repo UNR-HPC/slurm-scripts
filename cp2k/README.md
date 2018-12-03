@@ -39,4 +39,4 @@ no need to edit the script to change sbatch parameters
 > $ sbatch --job-name=my-cp2k-job --time=02:00:00 rc-cp2k.sl input-file.inp
 
 ###### Change the number of tasks from the command line
- > $ sbatch --ntasks=64 rc-cp2k.sl input-file.inp                                                                                      1,44          Top
+ > $ sbatch --ntasks=64 rc-cp2k.sl input-file.inp                                                                               
