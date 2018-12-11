@@ -3,7 +3,8 @@
 ###### Notes:
 
 * This script will run a job on an entire compute node
-* CPU affinity cannot be used with this script at this time
+* This script is optimized for entire compute nodes performing geometry optimization calculations using PW parallelization
+* Job dimensions for pronghorn 1st generation compute node processors: Intel E5-2683 v4 (Broadwell-EP)
 
 ###### Simple invocation
 
