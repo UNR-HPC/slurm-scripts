@@ -1,4 +1,4 @@
-### This script is written to take a Quantum-Espresso (QE) input file as an argument. It will dump its output into the directory from which it was invoked. The following are some use cases for this script:
+### The rc-qe.sl script is written to take a Quantum-Espresso (QE) input file as an argument. It will dump its output into the directory from which it was invoked. The following are some use cases for this script:
 
 ###### Notes:
 
