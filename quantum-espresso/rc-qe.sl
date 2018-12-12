@@ -4,7 +4,7 @@
 #SBATCH --tasks-per-node=32             # 32 tasks per node
 #SBATCH --time=14-00:00:00              # Max run time is 14 days
                                         #   - Use --time as command line argument to override
-#SBATCH --partition=gpu                 # Submit job to the cpu partition
+#SBATCH --partition=cpu                 # Submit job to the cpu partition
 #SBATCH --mail-type=ALL                 # Send mail on all state changes
 #SBATCH --output=%x.%j.out              # The output file name: <job_name>.<job_id>.out
 #SBATCH --error=%x.%j.err               # The error file name: <job_name>.<job_id>.err
