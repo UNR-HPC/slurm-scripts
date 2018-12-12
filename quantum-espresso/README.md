@@ -2,10 +2,9 @@
 
 ###### Notes:
 
-* This script will run a job on an entire compute node, 32 tasks per node 
+* This script will run a job on an entire compute node: 32 processor cores & approximately 90% of total memory
 * Specify more than one node with -N option (example: -N 4 for 4nodes x 32 MPI tasks = 128 MPI tasks)
 * This script is optimized for entire compute nodes performing geometry optimization calculations using PW parallelization
-* Job dimensions for pronghorn 1st generation compute node processors: Intel E5-2683 v4 (Broadwell-EP)
 
 ###### Simple invocation
 
