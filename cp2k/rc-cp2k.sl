@@ -3,10 +3,8 @@
 #SBATCH --ntasks=16			# Number of tasks to run
 #SBATCH --hint=compute_bound		# Hyperthreading is enabled, run only on cores
 					#   - 32 total CPUs will be allocated for this job
-#SBATCH --mem-per-cpu=5250M		# Allocate 5.25GB of memory per CPU
-					#   - 84GB = 16*5.25GB of memory will be allocated 
-#SBATCH --time=14-00:00:00		# Max run time is 14 days
-					#   - Use --time as command line argument to override
+#SBATCH --mem-per-cpu=2600M		# Allocate 2.6GB of memory per CPU					 
+#SBATCH --time=14-00:00:00		# Max run time is 14 days					#   - Use --time as command line argument to override
 #SBATCH --partition=cpu			# Submit job to the cpu partition
 #SBATCH --mail-type=ALL			# Send mail on all state changes
 #SBATCH --output=%x.%j.out		# The output file name: <job_name>.<job_id>.out
