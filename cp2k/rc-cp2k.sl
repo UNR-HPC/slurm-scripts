@@ -58,8 +58,9 @@
 module load unr-rc
 # Load the singularity container module
 module load singularity
-# Load the cp2k 5.1 container module & its dependants (Intel MKL, MPI)
-module load cp2k/5.1
+# Load Intel mkl & mpi
+module load intel/mkl/64
+module load intel/mpi/64
 
 # Error if the cp2k input file does not exist or was not specified. Check stderr file for 
 # error.
