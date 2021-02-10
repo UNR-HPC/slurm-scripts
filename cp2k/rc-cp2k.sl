@@ -66,4 +66,4 @@ module load intel/mpi/64
 
 # Run cp2k from the system singularity container with the input file specified from
 # the command line. /cm/shared needs to be bind mounted to access Intel MKL & MPI.
-srun --mpi=pmi2 singularity exec -B /cm/shared /apps/cp2k/cp2k5.1-plumed2.2.5.sif cp2k.popt -i ${1}
+srun --mpi=pmi2 singularity exec -B /data/gpfs/assoc /apps/cp2k/cp2k5.1-plumed2.2.5.sif cp2k.popt -i ${1}
