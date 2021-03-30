@@ -6,7 +6,7 @@
 					#   - 32 total CPUs will be allocated for this job.
 #SBATCH --mem-per-cpu=3500M		# Allocate 3.5GB of memory per CPU
 					#   - 112GB = 32*3.5GB of memory will be allocated 
-#SBATCH --time=3-00:00:00		# Max run time is 3 days
+#SBATCH --time=0-00:10:00		# Max run time is 3 days, this test is 10min
 					#   - Use --time as command line argument to override					
 #SBATCH --partition=cpu-s6-test-0	# Submit job to the cpu test partition
 #SBATCH --account cpu-s6-test-0		# and cpu test account
