@@ -34,7 +34,7 @@ no need to edit the script to change sbatch parameters
 > $ sbatch --time=10-00:00:00 rc-g16.sl input.gjf
 
 ###### Set an email for notification on job state change from command line
-> $ sbatch --mail-user<netid>=@unr.edu rc-g16.sl input.gjf
+> $ sbatch --mail-user=<netid>@unr.edu rc-g16.sl input.gjf
 
 ###### Change the job name and run time from the command line
 > $ sbatch --job-name=myjob --time=02:00:00 rc-g16.sl input.gjf
