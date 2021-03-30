@@ -7,8 +7,9 @@
 #SBATCH --mem-per-cpu=3500M		# Allocate 3.5GB of memory per CPU
 					#   - 112GB = 32*3.5GB of memory will be allocated 
 #SBATCH --time=3-00:00:00		# Max run time is 3 days
-					#   - Use --time as command line argument to override
-#SBATCH --partition=cpu			# Submit job to the cpu partition
+					#   - Use --time as command line argument to override					
+#SBATCH --partition=cpu-s6-test-0	# Submit job to the cpu test partition
+#SBATCH --account cpu-s6-test-0		# and cpu test account
 #SBATCH --mail-type=ALL			# Send mail on all state changes
 #SBATCH --output=rc-g16.%j.out		# The output file name
 #SBATCH --error=rc-g16.%j.err		# The error file name
