@@ -44,6 +44,8 @@
 module load unr-rc
 # Load the singularity container module
 module load singularity
+# Add g16 to PATH
+module load gaussian
 
 # Error if the Gaussian input file does not exist or was not specified. Check stderr file for 
 # error.
