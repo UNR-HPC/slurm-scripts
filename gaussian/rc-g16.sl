@@ -9,7 +9,7 @@
 #SBATCH --time=0-00:10:00		# Max run time is 3 days, this test is 10min
 					#   - Use --time as command line argument to override					
 #SBATCH --partition=cpu-s6-test-0	# Submit job to the cpu test partition
-#SBATCH --account cpu-s6-test-0		# and cpu test account
+#SBATCH --account=cpu-s6-test-0		# and cpu test account
 #SBATCH --mail-type=ALL			# Send mail on all state changes
 #SBATCH --output=rc-g16.%j.out		# The output file name
 #SBATCH --error=rc-g16.%j.err		# The error file name
