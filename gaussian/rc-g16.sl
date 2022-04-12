@@ -11,8 +11,8 @@
 #SBATCH --partition=cpu-s6-test-0	# Submit job to the cpu test partition
 #SBATCH --account=cpu-s6-test-0		# and cpu test account
 #SBATCH --mail-type=ALL			# Send mail on all state changes
-#SBATCH --output=rc-g16.%j.out		# The output file name
-#SBATCH --error=rc-g16.%j.err		# The error file name
+#SBATCH --output=%x.%j.out		# The output file name: <job_name>.<job_id>.out
+#SBATCH --error=%x.%j.err		# The error file name: <job_name>.<job_id>.err
 
 #--------------------------------------------------------------------------------------------------
 #
